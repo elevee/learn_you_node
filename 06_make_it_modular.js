@@ -40,6 +40,6 @@
   // who expects this contract. So your module could be used by anyone else who  
   // does learnyounode, or the verifier, and just work.
 
-var mymodule = require('./make_it_modular_module.js');
+var mymodule = require('./06_make_it_modular_module.js');
 
 mymodule(process.argv[2], process.argv[3]);
